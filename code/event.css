@@ -1,0 +1,118 @@
+body{
+    background-image: url();
+    background-size: cover;
+}
+.culrav{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    width: 300px;
+    height: 300px;
+    border: 5px solid black;
+    margin: 10px;
+    padding: 10px;
+    background-image: url(culrav.png);
+    background-size: contain;
+}
+.avishkar{
+    position: relative;
+    bottom : 240px;
+    left: 530px;
+    height: 300px;
+    width: 300px;
+    border: 5px solid rgb(81, 78, 78);
+    margin: 10px;
+    padding: 10px;
+    background-image: url(avishkar.jpg);
+    background-size: contain;
+}
+.swagat{
+    position: relative;
+    left: 950px;
+    bottom: 580px;
+    width: 300px;
+    height: 300px;
+    border: 5px solid black;
+    margin: 10px;
+    padding: 10px;
+    background-image: url(Screenshot\ \(9\).png);
+    background-size: contain;
+}
+.rukshat{
+    position: relative;
+    left: 100px;
+    bottom: 540px;
+    width: 300px;
+    height: 300px;
+    border: 5px solid black;
+    margin: 10px;
+    padding: 10px;
+    background-image: url(rukshat.jpg);
+    background-size: contain;
+}
+.hack{
+    position: relative;
+    left: 530px;
+    bottom: 880px;
+    width: 300px;
+    height: 300px;
+    border: 5px solid black;
+    margin: 10px;
+    padding: 10px;
+    background-image: url(Screenshot\ \(10\).png);
+    background-size: contain;
+}
+.menu{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: black;
+    
+}
+.info{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+}
+.avishkar:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.culrav:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.swagat:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.rukshat:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.hack:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+ul{
+    list-style-type: none;
+    padding-right: 20%;
+    padding-left: 20%
+}
+li{
+    float: left;
+    border: 2px solid black;
+    
+}
+li a{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: black;
+    background-color: rgb(84, 167, 250);
+}
+li a:hover{
+    color: blue;
+}
+

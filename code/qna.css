@@ -1,0 +1,81 @@
+.screen{
+    display: flex;
+}
+@media screen and (min-width: 640px){
+    .flex-container {
+        display: flex;
+    }    
+}
+.side{
+    background: rgb(161, 213, 241);
+    flex: 0 1 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+h3{
+    padding-left: 37%;
+    padding-top: 0%;
+}
+h2{
+    padding-left: 30%;
+    padding-top: 0%;
+}
+h4{
+    padding-left: 5%;
+}
+hr{
+    height: 2px;
+    background-color: black;
+    border: none;
+}
+.sort{
+    padding-left: 5%;
+    font-size: large;
+}
+.filter{
+    padding-left: 5%;
+    font-size: large;
+}
+img{
+    padding-left: 37%;
+    padding-top: 10%;
+    padding-bottom: 0%;
+}
+.search input[type=text]{
+    font-size: larger;
+    display: flex;
+}
+.search{
+    padding-left: 8%;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    padding-left: 5%;
+    font-size: 20px;
+    color:black;
+}
+a:hover{
+    color: blue;
+}
+.main{
+    flex: 0 1 900px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+.side1{
+    background: rgb(161, 213, 241);
+    flex: 0 1 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+.side1 input[type=text]{
+    font-size: larger;
+    display: flex;
+}
+.side1{
+    padding-left: 10px;
+}

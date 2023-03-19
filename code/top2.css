@@ -1,0 +1,54 @@
+.login{
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    background: rgb(38, 155, 218);
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+    -webkit-text-fill-color: black;
+    border-color: black;
+    border-radius: 20px;
+}
+img{
+    width: 90px;
+    border-radius: 20px;
+}
+#Type{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    width: max-content;
+    outline: none;
+    border-color: black;
+    cursor: pointer;
+    background: rgb(119, 196, 237);
+}
+.input-box{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    width: max-content;
+    border-color: black;
+    outline: none;
+    background: rgb(119, 196, 237);
+}
+.signup-btn{
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    border: 2px solid black;
+    background: rgb(119, 196, 237);
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    border-color: black;
+    background-image: url(pewdiepie-blue-wavy-lines-bsstuqgqemnuq8hf.jpg);
+    background-size: 100%;
+    text-align: left;
+}
