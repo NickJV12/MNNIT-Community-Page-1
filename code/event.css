@@ -3,9 +3,9 @@ body{
     background-size: cover;
 }
 .culrav{
-    position: relative;
+    position: absolute;
     top: 100px;
-    left: 100px;
+    left: 120px;
     width: 300px;
     height: 300px;
     border: 5px solid black;
@@ -15,9 +15,9 @@ body{
     background-size: contain;
 }
 .avishkar{
-    position: relative;
-    bottom : 240px;
-    left: 530px;
+    position: absolute;
+    top: 100px;
+    left: 535px;
     height: 300px;
     width: 300px;
     border: 5px solid rgb(81, 78, 78);
@@ -27,9 +27,9 @@ body{
     background-size: contain;
 }
 .swagat{
-    position: relative;
+    position: absolute;
+    top: 100px;
     left: 950px;
-    bottom: 580px;
     width: 300px;
     height: 300px;
     border: 5px solid black;
@@ -39,9 +39,9 @@ body{
     background-size: contain;
 }
 .rukshat{
-    position: relative;
-    left: 100px;
-    bottom: 540px;
+    position: absolute;
+    left: 120px;
+    top: 500px;
     width: 300px;
     height: 300px;
     border: 5px solid black;
@@ -51,15 +51,39 @@ body{
     background-size: contain;
 }
 .hack{
-    position: relative;
-    left: 530px;
-    bottom: 880px;
+    position: absolute;
+    top: 500px;
+    left: 535px;
     width: 300px;
     height: 300px;
     border: 5px solid black;
     margin: 10px;
     padding: 10px;
     background-image: url(Screenshot\ \(10\).png);
+    background-size: contain;
+}
+.elo{
+    position: absolute;
+    left: 120px;
+    top: 900px;
+    width: 300px;
+    height: 300px;
+    border: 5px solid black;
+    margin: 10px;
+    padding: 10px;
+    background-image: url(elo.png);
+    background-size: contain;
+}
+.chit{
+    position: absolute;
+    top: 500px;
+    left: 950px;
+    width: 300px;
+    height: 300px;
+    border: 5px solid black;
+    margin: 10px;
+    padding: 10px;
+    background-image: url(chit.png);
     background-size: contain;
 }
 .menu{
@@ -90,6 +114,14 @@ body{
     transform: scale(1.1);
 }
 .hack:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.elo:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.chit:hover{
     cursor: pointer;
     transform: scale(1.1);
 }
